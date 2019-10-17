@@ -1,0 +1,5 @@
+**/dist
+**/node-modules
+**/vendor
+echoservers
+scripts

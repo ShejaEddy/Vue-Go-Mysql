@@ -1,0 +1,13 @@
+package routes
+
+import (
+	"github.com/go-xorm/xorm"
+	"net/http"
+)
+
+func Health(db *xorm.Engine) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("server is healthy"))
+	}
+
+}

@@ -1,0 +1,10 @@
+{
+  "dev": {
+    "host": "localhost",
+    "user": "root",
+    "password" : "",
+    "database": "vue-go-1st",
+    "driver": "mysql",
+    "multipleStatements": true
+  }
+}
